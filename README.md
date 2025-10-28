@@ -1,8 +1,8 @@
 # Gkash - Financial Literacy Platform
 
-## 🚀 Learn. Save. Invest.
+## 🚀 Learn. Invest. Grow.
 
-A modern, responsive landing page for the Gkash mobile application - empowering Kenyan people with financial literacy, smart savings, and investment opportunities.
+A modern, responsive landing page for the Gkash mobile application - empowering Kenyan people with financial literacy, smart investment opportunities, and sustainable growth.
 
 ## 📌 Project Overview
 
@@ -140,19 +140,19 @@ The landing page includes a built-in dark mode toggle that users can activate:
 - **Light Mode**: Clean white background (60%), pink accents (30%), gold highlights (10%)
 - **Dark Mode**: Dark background (60%), soft pink accents (30%), gold highlights (10%)
 
-## 📱 Early Access APK
+## 🚀 Waitlist Signup
 
-The landing page includes a direct download link for the Android app (Early Access):
-- **File**: `app-release.apk` (16.1 MB)
-- **Location**: Available in the project root
-- **Download Button**: Links to the APK file with download attribute
-- **User Instructions**: Includes installation guidance for users
+The landing page includes a waitlist signup for early access:
+- **Google Form**: https://forms.gle/EnaMCx77TfVJK5jQA
+- **Location**: CTA section at bottom of page
+- **Button**: "🚀 Join the Waitlist"
+- **Opens**: In new tab with proper security attributes
 
-### Installation Steps for Users:
-1. Click "Download for Android (Early Access)"
-2. Enable "Install from Unknown Sources" if prompted
-3. Open the downloaded APK file
-4. Follow installation prompts
+### How It Works:
+1. Users click "Join the Waitlist" button
+2. Opens Google Form in new tab
+3. Users fill out their information
+4. Get notified when Gkash launches
 
 ## 📞 USSD Platform
 
@@ -215,8 +215,9 @@ This project is part of the Gkash financial literacy platform.
 ## 📞 Contact
 
 For more information about Gkash:
-- Email: info@gkash.co.ke
-- Website: [Coming Soon]
+- Email: itsgkash@gmail.com
+- YouTube: https://www.youtube.com/@itsgkash
+- Waitlist: https://forms.gle/EnaMCx77TfVJK5jQA
 
 ---
 
