@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="270" height="570" viewBox="0 0 270 570" xmlns="http://www.w3.org/2000/svg">
+    <!-- Phone screen background -->
+    <rect width="270" height="570" fill="#1a1a1a"/>
+    
+    <!-- Status bar -->
+    <rect x="0" y="0" width="270" height="30" fill="#0d0d0d"/>
+    <text x="10" y="20" font-family="Arial" font-size="12" fill="white">21:20</text>
+    <text x="240" y="20" font-family="Arial" font-size="12" fill="white">91%</text>
+    
+    <!-- Header -->
+    <text x="20" y="70" font-family="Poppins, Arial" font-size="22" font-weight="600" fill="white">
+        Learn &amp; grow your Savings
+    </text>
+    <text x="20" y="95" font-family="Arial" font-size="14" fill="#b0b0b0">
+        Simple guides to save Smarter
+    </text>
+    
+    <!-- Search bar -->
+    <rect x="20" y="115" width="230" height="45" rx="10" fill="#2a2a2a"/>
+    <text x="35" y="143" font-family="Arial" font-size="14" fill="#666">
+        Search: topics, Budgeting, Finance
+    </text>
+    
+    <!-- Daily Tip Card -->
+    <rect x="20" y="175" width="230" height="80" rx="15" fill="#FFD700"/>
+    <text x="35" y="205" font-family="Arial" font-size="14" fill="#1a1a1a">Daily Tip</text>
+    <text x="35" y="230" font-family="Arial" font-size="16" font-weight="600" fill="#1a1a1a">
+        Diversify Your Investments
+    </text>
+    
+    <!-- Learning Categories -->
+    <text x="20" y="290" font-family="Poppins, Arial" font-size="20" font-weight="600" fill="white">
+        Learning Categories
+    </text>
+    
+    <!-- Category Cards -->
+    <g>
+        <rect x="20" y="310" width="230" height="60" rx="10" fill="#2a2a2a"/>
+        <circle cx="45" cy="340" r="15" fill="#E91E63"/>
+        <text x="70" y="335" font-family="Arial" font-size="14" font-weight="600" fill="white">Get Started</text>
+        <text x="70" y="350" font-family="Arial" font-size="12" fill="#b0b0b0">Basics of Savings</text>
+    </g>
+    
+    <g>
+        <rect x="20" y="380" width="230" height="60" rx="10" fill="#2a2a2a"/>
+        <circle cx="45" cy="410" r="15" fill="#E91E63"/>
+        <text x="70" y="405" font-family="Arial" font-size="14" font-weight="600" fill="white">Saving Basics</text>
+        <text x="70" y="420" font-family="Arial" font-size="12" fill="#b0b0b0">Build your wealth</text>
+    </g>
+    
+    <g>
+        <rect x="20" y="450" width="230" height="60" rx="10" fill="#2a2a2a"/>
+        <circle cx="45" cy="480" r="15" fill="#E91E63"/>
+        <text x="70" y="475" font-family="Arial" font-size="14" font-weight="600" fill="white">Investment Knowledge</text>
+        <text x="70" y="490" font-family="Arial" font-size="12" fill="#b0b0b0">Increasing wealth</text>
+    </g>
+    
+    <!-- Bottom navigation -->
+    <rect x="0" y="520" width="270" height="50" fill="#2a2a2a"/>
+    <text x="30" y="550" font-family="Arial" font-size="11" fill="white">Home</text>
+    <text x="80" y="550" font-family="Arial" font-size="11" fill="#E91E63">Learn</text>
+    <circle cx="135" cy="545" r="20" fill="#4CAF50"/>
+    <text x="125" y="550" font-family="Arial" font-size="10" fill="white">GAME</text>
+    <text x="180" y="550" font-family="Arial" font-size="11" fill="white">Chat</text>
+    <text x="230" y="550" font-family="Arial" font-size="11" fill="white">Profile</text>
+</svg>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gkash - Learn. Save. Invest.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">
+          <img src="assets/logo.svg" alt="Gkash Logo" class="logo" />
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#ussd">USSD Access</a></li>
+          <li><a href="#impact">Impact</a></li>
+          <li>
+            <button
+              id="theme-toggle"
+              class="theme-toggle"
+              aria-label="Toggle dark mode"
+            >
+              🌓
+            </button>
+          </li>
+          <li><a href="#download" class="btn-nav">Get Started</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="highlight">Learn.</span>
+              <span class="highlight">Invest.</span>
+              <span class="highlight">Grow.</span>
+            </h1>
+            <p class="hero-subtitle">
+              Empowering Kenyan People with Financial Literacy, Smart Savings,
+              and Investment Opportunities
+            </p>
+            <p class="hero-description">
+              Build a strong financial foundation through interactive learning,
+              goal-based saving, and beginner-friendly investments - all in one
+              app.
+            </p>
+            <div class="hero-buttons">
+              <a href="#download" class="btn btn-primary">Start Your Journey</a>
+              <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="stats">
+              <div class="stat-item">
+                <h3>70%</h3>
+                <p>People lack saving habits</p>
+              </div>
+              <div class="stat-item">
+                <h3>50+</h3>
+                <p>Financial lessons</p>
+              </div>
+              <div class="stat-item">
+                <h3>100%</h3>
+                <p>Commitment to your success</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="phone-mockup">
+              <img
+                src="assets/app-screen-1.svg"
+                alt="Gkash App"
+                class="app-screen active"
+              />
+              <img
+                src="assets/app-screen-2.svg"
+                alt="Gkash Chat"
+                class="app-screen"
+              />
+              <img
+                src="assets/app-screen-3.svg"
+                alt="Gkash Wallet"
+                class="app-screen"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="problem-section">
+      <div class="container">
+        <h2 class="section-title">The Challenge We're Solving</h2>
+        <div class="problem-grid">
+          <div class="problem-card">
+            <div class="problem-icon">📚</div>
+            <h3>Limited Financial Education</h3>
+            <p>
+              Most people lack access to practical, relatable financial
+              education
+            </p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">💰</div>
+            <h3>Poor Saving Habits</h3>
+            <p>
+              Over 70% of university students have no structured saving habits
+            </p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">🎲</div>
+            <h3>Risky Financial Behavior</h3>
+            <p>
+              Many resort to gambling and short-term loans without long-term
+              plans
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Your Financial Journey Starts Here</h2>
+        <div class="features-grid">
+          <div class="feature-card learn-card">
+            <div class="feature-icon">🎓</div>
+            <h3>Interactive Learning</h3>
+            <p>
+              Bite-sized, localized lessons on budgeting, saving, and investing
+              tailored for Kenyan people
+            </p>
+            <ul class="feature-list">
+              <li>Practical financial lessons</li>
+              <li>Progress tracking</li>
+              <li>Daily tips & insights</li>
+              <li>AI-powered assistant</li>
+            </ul>
+          </div>
+          <div class="feature-card save-card">
+            <div class="feature-icon">🏦</div>
+            <h3>Smart Savings</h3>
+            <p>
+              Set goals, track progress, and build financial discipline with our
+              digital wallet
+            </p>
+            <ul class="feature-list">
+              <li>Goal-based saving</li>
+              <li>Secure digital wallet</li>
+              <li>Transaction tracking</li>
+              <li>Savings challenges</li>
+            </ul>
+          </div>
+          <div class="feature-card invest-card">
+            <div class="feature-icon">📈</div>
+            <h3>Micro-Investments</h3>
+            <p>
+              Learn investing through simulations and guided beginner-friendly
+              opportunities
+            </p>
+            <ul class="feature-list">
+              <li>Investment simulator</li>
+              <li>Risk assessment tools</li>
+              <li>Portfolio tracking</li>
+              <li>Community rankings</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <h2 class="section-title">How Gkash Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Sign Up & Set Goals</h3>
+            <p>Create your account and define your financial goals</p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Learn & Practice</h3>
+            <p>Access interactive lessons and apply knowledge</p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Save & Track</h3>
+            <p>Build saving habits and monitor your progress</p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <h3>Invest & Grow</h3>
+            <p>Start with simulations, then real investments</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="impact">
+      <div class="container">
+        <h2 class="section-title">Our Impact</h2>
+        <div class="impact-grid">
+          <div class="impact-card">
+            <h3>Financial Empowerment</h3>
+            <p>
+              Building a generation of financially confident people capable of
+              independent decision-making
+            </p>
+          </div>
+          <div class="impact-card">
+            <h3>Behavioral Change</h3>
+            <p>
+              Encouraging saving and investment over gambling or impulsive
+              spending
+            </p>
+          </div>
+          <div class="impact-card">
+            <h3>Economic Inclusion</h3>
+            <p>
+              Connecting people to digital saving and investment opportunities
+            </p>
+          </div>
+          <div class="impact-card">
+            <h3>Sustainable Growth</h3>
+            <p>
+              Supporting Kenya's vision for financial inclusion and economic
+              participation
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- USSD Platform Section -->
+    <section id="ussd" class="ussd-section">
+      <div class="container">
+        <div class="ussd-content">
+          <div class="ussd-text">
+            <h2>No Smartphone? No Problem!</h2>
+            <p class="ussd-subtitle">
+              Access Gkash on any phone with our USSD platform
+            </p>
+            <div class="ussd-code-box">
+              <span class="ussd-label">Dial:</span>
+              <span class="ussd-code">*710*56789#</span>
+            </div>
+            <ul class="ussd-features">
+              <li>Check your balance</li>
+              <li>Save money securely</li>
+              <li>Access financial tips</li>
+              <li>Track your goals</li>
+              <li>Works on any mobile network</li>
+            </ul>
+            <p class="ussd-note">
+              💡 Financial literacy for everyone, regardless of device
+            </p>
+          </div>
+          <div class="ussd-visual">
+            <div class="phone-frame">
+              <div class="phone-screen">
+                <div class="ussd-display">
+                  <p class="ussd-prompt">*710*56789#</p>
+                  <p class="ussd-response">Welcome to Gkash</p>
+                  <p class="ussd-menu">
+                    1. Create account<br />2. Invest<br />3. Withdraw<br />4.
+                    Check Balance <br />5. Track account
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="download" class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Start Your Financial Journey Today</h2>
+          <p>
+            Join thousands of Kenyans building wealth through smart financial
+            habits
+          </p>
+          <div class="cta-buttons">
+            <a href="app-release.apk" download="Gkash.apk" class="btn btn-large"
+              >📱 Download for Android (Early Access)</a
+            >
+            <a href="#" class="btn btn-large btn-outline">Coming to iOS</a>
+          </div>
+          <p class="early-access-note">
+            <strong>Early Access Version:</strong> Download and install the APK
+            to try Gkash now!<br />
+            <small
+              >💡 Enable "Install from Unknown Sources" in your Android settings
+              if prompted</small
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <img src="assets/logo.svg" alt="Gkash Logo" class="footer-logo" />
+            <p>
+              Empowering Kenyan people through financial literacy and smart
+              money management.
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#impact">Impact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Connect With Us</h4>
+            <p>itsgkash@gmail.com</p>
+            <div class="social-links">
+              <a href="https://www.youtube.com/@itsgkash">Youtube</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Gkash. All rights reserved. | Financial Literacy for
+            Everyone
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

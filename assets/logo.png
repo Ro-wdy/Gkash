@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="60" viewBox="0 0 150 60" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FDD835;stop-opacity:1" />
+        </linearGradient>
+        <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+        </filter>
+    </defs>
+    
+    <!-- Background rounded rectangle -->
+    <rect x="5" y="5" width="140" height="50" rx="25" ry="25" fill="#E91E63"/>
+    
+    <!-- Main text "Gkash" with gradient -->
+    <text x="75" y="38" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="700" 
+          text-anchor="middle" fill="url(#goldGradient)" filter="url(#shadow)">
+        Gkash
+    </text>
+    
+    <!-- Star sparkle -->
+    <path d="M 120 20 L 122 24 L 126 20 L 122 22 L 120 20" fill="#FFD700"/>
+    <path d="M 122 18 L 122 22 M 120 20 L 124 20" stroke="#FFD700" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
